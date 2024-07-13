@@ -1,12 +1,9 @@
 import 'package:animation_ecommerce_app/view/modal/product_modal.dart';
 import 'package:animation_ecommerce_app/view/screen/details/details_screen.dart';
-import 'package:animation_ecommerce_app/view/screen/home/componects/cart_detailsview_card.dart';
 import 'package:flutter/material.dart';
 
 import '../../../utils/constants.dart';
 import '../../controller/home_controller.dart';
-import '../componects/favorite_button.dart';
-import '../componects/price.dart';
 import 'componects/card_short_view.dart';
 import 'componects/cart_details_view.dart';
 import 'componects/header.dart';
