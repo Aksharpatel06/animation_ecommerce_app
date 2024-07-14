@@ -48,7 +48,6 @@ class _DetailsScreenState extends State<DetailsScreen> {
                 setState(() {
                   _cartTag = '_cartTag';
                 });
-                Navigator.pop(context);
               },
               child: const Text("Add to Cart"),
             ),

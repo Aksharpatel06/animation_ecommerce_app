@@ -28,7 +28,7 @@ Container homeHeader(BuildContext context) {
         ),
         const CircleAvatar(
           backgroundColor: Colors.transparent,
-          backgroundImage: AssetImage("assets/images/profile.png"),
+          backgroundImage: AssetImage("assets/img/profile.png"),
         )
       ],
     ),

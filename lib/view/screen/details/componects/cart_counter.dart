@@ -14,7 +14,8 @@ Container cartCounter() {
         roundIconBtn(
           iconData: Icons.remove,
           color: Colors.black38,
-          press: () {},
+          press: () {
+          },
         ),
         Padding(
           padding: const EdgeInsets.symmetric(

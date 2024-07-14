@@ -68,6 +68,7 @@ class HomeScreen extends StatelessWidget {
                               mainAxisSpacing: defaultPadding,
                               crossAxisSpacing: defaultPadding,
                             ),
+                            itemCount: demoProducts.length,
                             itemBuilder: (context, index) {
                               ProductModal product = demoProducts[index];
                               return productCard(
