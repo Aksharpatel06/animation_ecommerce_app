@@ -1,16 +1,28 @@
 # animation_ecommerce_app
 
-A new Flutter project.
 
-## Getting Started
+#### 1. **Explicit Animation**
+**Description:**
+Explicit animations allow you to control the animation steps manually, providing a detailed and smooth animation experience for elements like rotating planets or moving objects.
 
-This project is a starting point for a Flutter application.
+**Implementation Steps:**
+- Use the `AnimationController` to manage the animation duration and control.
+- Create `Animation` objects for different properties like rotation, scale, or position.
+- Use `AnimatedBuilder` or `AnimatedWidget` to rebuild and animate widgets based on the animation values.
 
-A few resources to get you started if this is your first Flutter project:
+#### 2. **Implicit Animation**
+**Description:**
+Implicit animations simplify the animation process by automatically animating changes in widget properties, such as size, position, or color, making it easy to create smooth transitions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Implementation Steps:**
+- Use implicit animation widgets like `AnimatedContainer`, `AnimatedOpacity`, and `AnimatedPositioned`.
+- Define the target state changes and let Flutter handle the animation between states.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Video
+
+https://github.com/user-attachments/assets/d227f6d6-bc4e-4fa8-b56b-ac4e023b850f
+
+
+
+
+
